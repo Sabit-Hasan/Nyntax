@@ -171,7 +171,8 @@ export default function Reservation() {
                 duration,
                 totalCost,
                 additionalCharges,
-                discount
+                discount,
+                reservationId
             };
             navigate("/invoice", { state: { data: invoiceData } });
         } else {

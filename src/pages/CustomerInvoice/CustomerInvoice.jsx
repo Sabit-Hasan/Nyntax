@@ -170,7 +170,7 @@ export default function CustomerInvoice() {
                     {/* ==========RIGHT SECTION========== */}
                     <div className="right-section">
                         <h3>Reservation</h3>
-                        <h3>RA #0121</h3>
+                        <h3>RA #{data.reservationId}</h3>
                         <h5>REPAIR ORDER:</h5>
                         <h5>CLAIM:</h5>
                         <p>Date/Time Out: {data.pickupTime.toString()}</p>
