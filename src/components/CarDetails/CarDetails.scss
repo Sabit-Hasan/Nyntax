@@ -1,0 +1,27 @@
+.card {
+    width: 250px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    border-radius: 10px;
+
+    img {
+        width: 200px;
+        object-fit: contain;
+    }
+
+    .card-details-section {
+        h5 {
+            padding: 3px 0px;
+        }
+
+        .car-details {
+            font-weight: 500;
+        }
+
+        ul {
+            padding-left: 30px;
+        }
+
+    }
+}

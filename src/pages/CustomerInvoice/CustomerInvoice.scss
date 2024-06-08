@@ -1,0 +1,83 @@
+.invoice {
+    padding: 30px;
+    display: grid;
+    place-items: center;
+
+    button {
+        padding: 7px 15px;
+        margin-bottom: 10px;
+        background-color: #4848ff;
+        color: white;
+        border-radius: 5px;
+        border: none;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .invoice-container {
+        width: 915px;
+        background-color: white;
+        border: 1px solid rgba(0, 0, 0, 0.397);
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+        padding: 50px;
+
+        .left-section {
+            .div-row {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                place-items: center;
+                margin-bottom: 10px;
+            }
+
+            div:nth-child(4) {
+                display: flex;
+                justify-content: space-around;
+                padding: 20px;
+            }
+        }
+
+        .right-section {
+            .table-div {
+                background-color: rgba(128, 128, 128, 0.427);
+                margin-bottom: 20px;
+                width: 400px;
+            }
+
+            .signature {
+                margin-top: 30px;
+                display: grid;
+                gap: 15px;
+            }
+        }
+    }
+
+    .downloadInvoice {
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        background-color: #5D5CFF;
+        color: white;
+        width: 175px;
+        height: 48px;
+        padding: 8px 16px 8px 16px;
+        gap: 8px;
+        border-radius: 5px;
+        opacity: 0px;
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        margin: 20px 0;
+    }
+}
